@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="clone209_aoa_tag" label="Bluetooth - SoC Clone209 AOA Tag" description="Clone of U-Blox C209 Tag generating Connectionless AOA periodic advertisements compatible with C211 and ANT-B10-10C antenna array boards">
+    <properties key="namespace" value="template.uc"/>
+    <properties key="keywords" value="universal\ configurator"/>
+    <properties key="projectFilePaths" value="clone209_aoa_tag/SimplicityStudio/clone209_aoa_tag.slcp"/>
+    <properties key="readmeFiles" value="clone209_aoa_tag/readme.md"/>
+    <properties key="boardCompatibility" value="brd4182a brd4183a brd4183b brd4183c brd4184a brd4184b brd4310a brd4312a com.silabs.board.none"/>
+    <properties key="partCompatibility" value=".*efr32[bm]g22.* .*[bm]gm22.*"/>
+    <properties key="ideCompatibility" value="generic-template iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code visual-studio-code-cmake"/>
+    <properties key="toolchainCompatibility" value="gcc iar segger"/>
+    <properties key="category" value="Bluetooth Examples"/>
+    <properties key="quality" value="EXPERIMENTAL"/>
+    <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
+    <properties key="filters" value="Device\ Type|SoC Project\ Difficulty|Beginner Wireless\ Technology|Bluetooth"/>
+  </descriptors>
+  <descriptors name="protected_apploader_ota" label="Community Support - Example of handling AppLoader OTA DFU from a (previously) bonded device" description="Demonstrates method of allowing for AppLoader OTA DFU initialization only to devices which have previously bonded and while operator has physical access to device on connection initiating OTA.">
+    <properties key="namespace" value="template.uc"/>
+    <properties key="keywords" value="universal\ configurator"/>
+    <properties key="solutionReferenceId" value="app.bluetooth.example.bt_soc_empty.bt_soc_empty.slcp"/>
+    <properties key="projectFilePaths" value="protected_apploader_ota/SimplicityStudio/protected_apploader_ota.slcp"/>
+    <properties key="readmeFiles" value="protected_apploader_ota/readme.md"/>
+    <properties key="boardCompatibility" value="brd4182a brd4183a brd4183b brd4183c brd4184a brd4184b brd4310a brd4311a brd4311b brd4312a com.silabs.board.none"/>
+    <properties key="partCompatibility" value=".*efr32[bm]g22.* .*[bm]gm22.*"/>
+    <properties key="ideCompatibility" value="generic-template iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code visual-studio-code-cmake"/>
+    <properties key="toolchainCompatibility" value="gcc iar segger"/>
+    <properties key="category" value="Bluetooth Examples"/>
+    <properties key="quality" value="EXPERIMENTAL"/>
+    <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
+    <properties key="filters" value="Device\ Type|SoC Project\ Difficulty|Beginner Wireless\ Technology|Bluetooth"/>
+  </descriptors>
+</model:MDescriptors>
