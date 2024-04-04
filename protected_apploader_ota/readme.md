@@ -4,7 +4,7 @@ Original Community thread: [Using Apploader after bonding](https://community.sil
 
 This is  not an official Silicon Labs example and is experimental in quality.
 
-Please see repo [readme](../readme.md) for details on accessing this example from Simplicity Studio.
+Please see repo [readme](../README.md) for details on accessing this example from Simplicity Studio.
 
 This application implements a protected OTA function.  The OTA Control
 chracteristic is left unprotected, but attempts to activate OTA by
