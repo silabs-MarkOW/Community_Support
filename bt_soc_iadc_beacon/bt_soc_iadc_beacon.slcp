@@ -12,6 +12,11 @@ component:
 - id: app_assert
 - id: component_catalog
 - id: mpu
+- id: emlib_iadc
+- id: emlib_ldma
+- id: emlib_letimer
+- id: emlib_prs
+- id: emlib_gpio
 - id: bt_post_build
 config_file:
 - directory: btconf
