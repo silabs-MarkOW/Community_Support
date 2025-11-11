@@ -56,7 +56,7 @@ config_file:
     directory: btconf
 
 readme:
-  - path: readme.md
+  - path: ../readme.md
 
 configuration:
   - name: SL_STACK_SIZE
