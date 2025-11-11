@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
-  <descriptors name="clone209_aoa_tag" label="Bluetooth - SoC Clone209 AOA Tag" description="Clone of U-Blox C209 Tag generating Connectionless AOA periodic advertisements compatible with C211 and ANT-B10-10C antenna array boards">
+  <descriptors name="clone209_aoa_tag_SiSDK" label="Bluetooth - SoC Clone209 AOA Tag SiSDK" description="Clone of U-Blox C209 Tag generating Connectionless AOA periodic advertisements compatible with C211 and ANT-B10-10C antenna array boards updated for Simplicity SDK and added AFH">
     <properties key="namespace" value="template.uc"/>
     <properties key="keywords" value="universal\ configurator"/>
     <properties key="projectFilePaths" value="clone209_aoa_tag/SimplicityStudio/clone209_aoa_tag.slcp"/>

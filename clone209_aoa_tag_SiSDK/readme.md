@@ -1,11 +1,13 @@
-# This is a simple implementation of the behavior of U-Blox C209 AOA tag,
+# This is a simple implementation of the behavior of U-Blox C209 AOA tag, updated to Simplicity SDK (2025.6.2)
 
 It is based of Bluetooth - SoC Empty example project with the following changes:
 
 * Add Extended Advertising component
 * Add Periodic advertising component
+* Remove some unused components (scanner, central)
 * Increase maximum number of advertisers to 2
 * Decrease maximum number of conections to 1 --- not necessary
+* Added AFH component and attempt to set power to +20 dBm
 
 This application expects to have a Bootloader - Bluetooth AppLoader
 OTA DFU Since it uses a static random addresss for connectable legacy

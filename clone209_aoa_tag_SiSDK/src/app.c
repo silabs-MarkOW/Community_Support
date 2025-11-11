@@ -75,6 +75,13 @@ void app_init(void)
                                         NULL, 0, 0);
 }
 
+void set_tx_power(void) {
+  sl_status_t sc;
+  int16_t set_min, set_max;
+  sc = sl_bt_system_set_tx_power(200, 200, &set_min, &set_max);
+  app_assert_status(sc);
+}
+
 /**************************************************************************//**
  * Application Process Action.
  *****************************************************************************/
@@ -96,6 +103,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // This event indicates the device has started and the radio is ready.
     // Do not call any stack command before receiving this boot event!
     case sl_bt_evt_system_boot_id:
+      //set_tx_power();
       initialize_advertisers();
       break;
 
