@@ -21,7 +21,6 @@ component:
   - id: bluetooth_feature_aoa_transmitter
   - id: bluetooth_stack
   - id: gatt_configuration
-  - id: gatt_service_device_information_override
   - id: bluetooth_feature_legacy_advertiser
   - id: bluetooth_feature_connection_role_peripheral
   - id: bluetooth_feature_extended_advertiser
