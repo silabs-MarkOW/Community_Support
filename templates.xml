@@ -14,11 +14,11 @@
     <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
     <properties key="filters" value="Device\ Type|SoC Project\ Difficulty|Beginner Wireless\ Technology|Bluetooth"/>
   </descriptors>
-  <descriptors name="clone209_aoa_tag-SiSDK" label="Bluetooth - SoC Clone209 AOA Tag" description="Clone of U-Blox C209 Tag generating Connectionless AOA periodic advertisements compatible with C211 and ANT-B10-10C antenna array boards">
+  <descriptors name="clone209_aoa_tag_SiSDK" label="Bluetooth - SoC Clone209 AOA Tag" description="Clone of U-Blox C209 Tag generating Connectionless AOA periodic advertisements compatible with C211 and ANT-B10-10C antenna array boards">
     <properties key="namespace" value="template.uc"/>
     <properties key="keywords" value="universal\ configurator"/>
-    <properties key="projectFilePaths" value="clone209_aoa_tag-SiSDK/SimplicityStudio/clone209_aoa_tag-SiSDK.slcp"/>
-    <properties key="readmeFiles" value="clone209_aoa_tag-SiSDK/readme.md"/>
+    <properties key="projectFilePaths" value="clone209_aoa_tag_SiSDK/SimplicityStudio/clone209_aoa_tag_SiSDK.slcp"/>
+    <properties key="readmeFiles" value="clone209_aoa_tag_SiSDK/readme.md"/>
     <properties key="boardCompatibility" value="brd4182a brd4183a brd4183b brd4183c brd4184a brd4184b brd4186c brd4187c brd2704a brd4310a brd4311a brd4312a com.silabs.board.none"/>
     <properties key="partCompatibility" value=".*efr32[bm]g22.* .*[bm]gm22.* .*efr32[bm]g24.* .*[bm]gm24.*"/>
     <properties key="ideCompatibility" value="generic-template iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code"/>
