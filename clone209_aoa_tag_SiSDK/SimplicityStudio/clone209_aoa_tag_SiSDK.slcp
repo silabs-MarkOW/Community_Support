@@ -54,7 +54,7 @@ config_file:
       component: gatt_configuration
       file_id: gatt_configuration_file_id
     path: gatt_configuration.btconf
-    directory: btconf
+    directory: ../config/btconf
 
 readme:
   - path: ../readme.md
