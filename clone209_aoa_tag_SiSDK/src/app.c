@@ -103,7 +103,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // This event indicates the device has started and the radio is ready.
     // Do not call any stack command before receiving this boot event!
     case sl_bt_evt_system_boot_id:
-      //set_tx_power();
+      set_tx_power();
       initialize_advertisers();
       break;
 
