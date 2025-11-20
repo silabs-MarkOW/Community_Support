@@ -69,7 +69,9 @@ configuration:
     value: "0"
     condition:
       - psa_crypto
-
+  - name: SL_CLOCK_MANAGER_LFRCO_PRECISION
+    value: "cmuPrecisionHigh"
+    
 post_build:
   - profile: bt_common
     condition: [device_series_2, bootloader_app_properties]
